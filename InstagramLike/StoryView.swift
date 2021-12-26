@@ -17,7 +17,7 @@ struct UserCell: View {
         Image(image)
           .resizable()
           .frame(width: 60, height: 60)
-          .cornerRadius(.infinity)
+          .cornerRadius(50)
       }
       .overlay(
         Circle()

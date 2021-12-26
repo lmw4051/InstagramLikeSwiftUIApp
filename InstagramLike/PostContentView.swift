@@ -8,9 +8,11 @@
 import SwiftUI
 
 struct PostContentView: View {
+  var image: String
+  
   var body: some View {
     VStack {
-      Image("girl")
+      Image(image)
         .resizable()
         .frame(width: .infinity)
         .aspectRatio(contentMode: .fit)
@@ -34,6 +36,6 @@ struct PostContentView: View {
 
 struct PostContentView_Previews: PreviewProvider {
   static var previews: some View {
-    PostContentView()
+    PostContentView(image: "girl")
   }
 }

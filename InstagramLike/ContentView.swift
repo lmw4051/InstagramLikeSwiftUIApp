@@ -12,15 +12,15 @@ struct ContentView: View {
     VStack(spacing: 0.0) {
       HeaderView()
       
-      StoryView()
-      
-      Divider()
-      
-      PostHeaderView()
-      
-      PostContentView()
-      
-      Spacer()
+      ScrollView(.vertical, showsIndicators: false) {
+        StoryView()
+        
+        Divider()
+        
+        PostView(image: "girl", description: "I miss traveling to Japan")
+        PostView(image: "old_car", description: "Old Orange Car")
+        PostView(image: "dogs", description: "2 Lovely Dogs")
+      }
     }
   }
 }
