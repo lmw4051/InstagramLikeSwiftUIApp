@@ -9,8 +9,10 @@ import SwiftUI
 
 struct ContentView: View {
   var body: some View {
-    VStack {
+    VStack(spacing: 0.0) {
       HeaderView()
+      
+      StoryView()
       
       Spacer()
     }
@@ -22,3 +24,4 @@ struct ContentView_Previews: PreviewProvider {
     ContentView()
   }
 }
+
