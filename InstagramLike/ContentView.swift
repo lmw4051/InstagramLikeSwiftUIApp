@@ -18,6 +18,8 @@ struct ContentView: View {
       
       PostHeaderView()
       
+      PostContentView()
+      
       Spacer()
     }
   }
