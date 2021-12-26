@@ -14,8 +14,7 @@ struct PostContentView: View {
     VStack {
       Image(image)
         .resizable()
-        .frame(width: .infinity)
-        .aspectRatio(contentMode: .fit)
+        .scaledToFill()
       
       HStack {
         HStack(spacing: 10.0) {

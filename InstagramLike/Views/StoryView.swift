@@ -33,17 +33,23 @@ struct UserCell: View {
 }
 
 struct StoryView: View {
+  let storyies: [Story] = [
+    .init(image: "profile1", name: "User 1"),
+    .init(image: "profile2", name: "User 2"),
+    .init(image: "profile3", name: "User 3"),
+    .init(image: "profile4", name: "User 4"),
+    .init(image: "profile5", name: "User 5"),
+    .init(image: "profile6", name: "User 6"),
+    .init(image: "profile7", name: "User 7"),
+    .init(image: "profile8", name: "User 8"),
+  ]
+  
   var body: some View {
     ScrollView(.horizontal, showsIndicators: false) {
       HStack(spacing: 15.0) {
-        UserCell(image: "profile1", name: "User 1")
-        UserCell(image: "profile2", name: "User 2")
-        UserCell(image: "profile3", name: "User 3")
-        UserCell(image: "profile4", name: "User 4")
-        UserCell(image: "profile5", name: "User 5")
-        UserCell(image: "profile6", name: "User 6")
-        UserCell(image: "profile7", name: "User 7")
-        UserCell(image: "profile8", name: "User 8")
+        ForEach(storyies, id: \.self) { story in
+          UserCell(image: story.image, name: story.name)
+        }
       }
       .padding(.horizontal, 8)
     }

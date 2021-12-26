@@ -15,15 +15,13 @@ struct PostView: View {
     VStack(alignment: .leading, spacing: 0.0) {
       PostHeaderView()
       PostContentView(image: image)
-      
+            
       Text("Liked by AAA and others")
         .font(.footnote)
-        .frame(width: .infinity, alignment: .leading)
         .padding(.horizontal, 12)
       
       Text(description)
         .font(.footnote)
-        .frame(width: .infinity, alignment: .leading)
         .padding(.horizontal, 12)
       
       HStack {
