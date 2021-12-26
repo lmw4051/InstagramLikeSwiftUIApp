@@ -11,6 +11,7 @@
 		54E2F36727785253005D766C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E2F36627785253005D766C /* ContentView.swift */; };
 		54E2F36927785256005D766C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54E2F36827785256005D766C /* Assets.xcassets */; };
 		54E2F36C27785256005D766C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54E2F36B27785256005D766C /* Preview Assets.xcassets */; };
+		54E2F37527785B8E005D766C /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E2F37427785B8E005D766C /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		54E2F36627785253005D766C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		54E2F36827785256005D766C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54E2F36B27785256005D766C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		54E2F37427785B8E005D766C /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				54E2F36427785253005D766C /* InstagramLikeApp.swift */,
 				54E2F36627785253005D766C /* ContentView.swift */,
+				54E2F37427785B8E005D766C /* HeaderView.swift */,
 				54E2F36827785256005D766C /* Assets.xcassets */,
 				54E2F36A27785256005D766C /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				54E2F36727785253005D766C /* ContentView.swift in Sources */,
+				54E2F37527785B8E005D766C /* HeaderView.swift in Sources */,
 				54E2F36527785253005D766C /* InstagramLikeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
