@@ -21,6 +21,8 @@ struct ContentView: View {
         PostView(image: "old_car", description: "Old Orange Car")
         PostView(image: "dogs", description: "2 Lovely Dogs")
       }
+      
+      TabBarView()
     }
   }
 }

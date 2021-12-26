@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54D76B142778796D00FC4FF9 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D76B132778796D00FC4FF9 /* TabBarView.swift */; };
 		54E2F36527785253005D766C /* InstagramLikeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E2F36427785253005D766C /* InstagramLikeApp.swift */; };
 		54E2F36727785253005D766C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E2F36627785253005D766C /* ContentView.swift */; };
 		54E2F36927785256005D766C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54E2F36827785256005D766C /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		54D76B132778796D00FC4FF9 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		54E2F36127785253005D766C /* InstagramLike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramLike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54E2F36427785253005D766C /* InstagramLikeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramLikeApp.swift; sourceTree = "<group>"; };
 		54E2F36627785253005D766C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				54E2F3782778618E005D766C /* PostHeaderView.swift */,
 				54E2F37A27786295005D766C /* PostContentView.swift */,
 				54E2F37C27786D96005D766C /* PostView.swift */,
+				54D76B132778796D00FC4FF9 /* TabBarView.swift */,
 				54E2F36827785256005D766C /* Assets.xcassets */,
 				54E2F36A27785256005D766C /* Preview Content */,
 			);
@@ -154,6 +157,7 @@
 			files = (
 				54E2F37D27786D96005D766C /* PostView.swift in Sources */,
 				54E2F37B27786295005D766C /* PostContentView.swift in Sources */,
+				54D76B142778796D00FC4FF9 /* TabBarView.swift in Sources */,
 				54E2F36727785253005D766C /* ContentView.swift in Sources */,
 				54E2F3792778618E005D766C /* PostHeaderView.swift in Sources */,
 				54E2F37527785B8E005D766C /* HeaderView.swift in Sources */,
