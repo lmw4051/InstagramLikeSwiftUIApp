@@ -17,7 +17,7 @@ struct UserCell: View {
         Image(image)
           .resizable()
           .frame(width: 60, height: 60)
-          .cornerRadius(50)
+          .cornerRadius(.infinity)
       }
       .overlay(
         Circle()
@@ -36,14 +36,14 @@ struct StoryView: View {
   var body: some View {
     ScrollView(.horizontal, showsIndicators: false) {
       HStack(spacing: 15.0) {
-        UserCell(image: "profile1", name: "Person 1")
-        UserCell(image: "profile2", name: "Person 2")
-        UserCell(image: "profile3", name: "Person 3")
-        UserCell(image: "profile4", name: "Person 4")
-        UserCell(image: "profile5", name: "Person 5")
-        UserCell(image: "profile6", name: "Person 6")
-        UserCell(image: "profile7", name: "Person 7")
-        UserCell(image: "profile8", name: "Person 8")
+        UserCell(image: "profile1", name: "User 1")
+        UserCell(image: "profile2", name: "User 2")
+        UserCell(image: "profile3", name: "User 3")
+        UserCell(image: "profile4", name: "User 4")
+        UserCell(image: "profile5", name: "User 5")
+        UserCell(image: "profile6", name: "User 6")
+        UserCell(image: "profile7", name: "User 7")
+        UserCell(image: "profile8", name: "User 8")
       }
       .padding(.horizontal, 8)
     }

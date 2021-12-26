@@ -14,6 +14,10 @@ struct ContentView: View {
       
       StoryView()
       
+      Divider()
+      
+      PostHeaderView()
+      
       Spacer()
     }
   }
@@ -24,4 +28,3 @@ struct ContentView_Previews: PreviewProvider {
     ContentView()
   }
 }
-
